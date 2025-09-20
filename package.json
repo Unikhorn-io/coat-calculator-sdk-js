@@ -1,0 +1,37 @@
+{
+  "name": "@unikhorn/coat-calculator-sdk",
+  "version": "1.0.0",
+  "description": "Official Unikhorn Coat Calculator API SDK for JavaScript/TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "unikhorn",
+    "horse",
+    "coat",
+    "calculator",
+    "genetics",
+    "api",
+    "sdk"
+  ],
+  "author": "Unikhorn <elinor@unikhorn.io> (https://unikhorn.io)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Unikhorn-io/coat-calculator-sdk-js"
+  },
+  "homepage": "https://api.unikhorn.io"
+}
