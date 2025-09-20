@@ -1,5 +1,5 @@
 {
-  "name": "@unikhorn/coat-calculator-sdk",
+  "name": "@unikhorn-io/coat-calculator-sdk",
   "version": "1.0.0",
   "description": "Official Unikhorn Coat Calculator API SDK for JavaScript/TypeScript",
   "main": "dist/index.js",

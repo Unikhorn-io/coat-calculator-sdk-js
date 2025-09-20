@@ -5,9 +5,9 @@ Official SDK for integrating Unikhorn's horse coat color calculator API into you
 ## 🚀 Installation
 
 ```bash
-npm install @unikhorn/coat-calculator-sdk
+npm install @unikhorn-io/coat-calculator-sdk
 # or
-yarn add @unikhorn/coat-calculator-sdk
+yarn add @unikhorn-io/coat-calculator-sdk
 ```
 
 ## 🔑 Getting Started
@@ -15,7 +15,7 @@ yarn add @unikhorn/coat-calculator-sdk
 First, get your API key from [Unikhorn](https://unikhorn.io).
 
 ```javascript
-import { UnikhornCoatCalculator } from '@unikhorn/coat-calculator-sdk';
+import { UnikhornCoatCalculator } from '@unikhorn-io/coat-calculator-sdk';
 
 // Initialize the SDK
 const unikhorn = new UnikhornCoatCalculator({
@@ -171,7 +171,7 @@ const unikhorn = new UnikhornCoatCalculator({
 The SDK throws `UnikhornAPIError` for API-related errors:
 
 ```javascript
-import { UnikhornAPIError } from '@unikhorn/coat-calculator-sdk';
+import { UnikhornAPIError } from '@unikhorn-io/coat-calculator-sdk';
 
 try {
   const result = await unikhorn.calculateSingleCoat(genes);
@@ -198,7 +198,7 @@ import {
   BaseGenes,
   OthersGenes,
   OffspringGenes
-} from '@unikhorn/coat-calculator-sdk';
+} from '@unikhorn-io/coat-calculator-sdk';
 
 const genes: HorseGenes = {
   base: {
